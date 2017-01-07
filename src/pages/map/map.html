@@ -1,0 +1,13 @@
+<ion-content padding>
+  <ion-card>
+    <div #map id="map"></div>
+
+    <ion-item>
+      <button ion-button icon-left clear large item-left (click)="addMarker()">
+        <ion-icon name="add-circle"></ion-icon>
+      </button>
+      <h2>{{'PIN_ADD' | translate}}</h2>
+      <p>{{'PIN_ADD_DESC' | translate}}</p>
+    </ion-item>
+  </ion-card>
+</ion-content>
